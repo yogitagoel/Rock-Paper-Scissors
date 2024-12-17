@@ -1,0 +1,85 @@
+.navbar{
+    display: flex;
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 80px;
+    width: 1520px;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    padding: 20px;
+    padding-left: 350px;
+    gap: 100px;
+}
+.icon{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: -webkit-inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+#rock{
+    background-color: pink;
+}
+#paper{
+    background-color: rgb(166, 66, 166);
+}
+#scissors{
+    background-color: aqua;
+}
+#icon{
+    font-size: 120px;
+    text-align: center;
+    color: white;
+}
+#rock:hover{
+    border: 5px solid black;
+}
+#paper:hover{
+    border: 5px solid black;
+}
+#scissors:hover{
+    border: 5px solid black;
+}
+.score{
+    display: flex;
+    justify-content: space-evenly;
+}
+pre{
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+.message{
+    height: 50px;
+    font-size: 20px;
+    width: 500px;
+    border-radius: 8px;
+    text-align: center;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: black;
+    height: 50px;
+    width: 500px;
+    font-size: 40px;
+    border-radius: 8px;
+    text-align: center;
+    align-self: center;
+    margin-left: 500px;
+}
