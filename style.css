@@ -50,7 +50,8 @@
 }
 .score{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap: 200px;
 }
 pre{
     font-size: 40px;
